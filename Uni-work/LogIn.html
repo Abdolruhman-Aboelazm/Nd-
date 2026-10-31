@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servix - Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>Servix</h1>
+    </header>
+    <div class="con">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="field-row">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Username" name="username" required>
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+            </div>
+
+            <div class="field-row">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+            </div>
+
+            <a href="/ForgotPassword.html">Forgot Password?</a>
+
+            <div class="remember-me">
+                <input type="checkbox" id="rem" name="remember">
+                <label for="rem">Remember Me</label>
+            </div>
+
+            <div>
+                <a href="/Home.html"><button type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button></a>
+                <a href="/Register.html"><button type="button">Register</button></a>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2026 Servix. All rights reserved.</p>
+    </footer>
+</body>
+</html>

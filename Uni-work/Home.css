@@ -1,0 +1,120 @@
+header{
+    background-color: #9dbedf;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+span{
+    color: antiquewhite;
+    background-color: #333;
+}
+.i{
+    color: #a74628;
+    background-color: antiquewhite;
+    display: block;
+    width: 20%;
+}
+#u{
+    color: #007BFF;
+    background-color: azure;
+    display: inline-block ;
+    width: 20%;
+
+}
+h1{
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ha{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.con{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #8abbf0;
+    padding-bottom: 50px;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ser{
+    display: inline;
+    width: 20%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.re{
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    background-color: #28A745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+dl{
+    background-image: url(/Alex.jpg);
+    background-size: cover;
+    border: black 1px solid;
+    border-radius: 10px;
+    color: rgb(7, 8, 7);
+}
+dt{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+dd{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}  
+
+.about{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #8abbf0;
+    padding-bottom: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #8abbf0;
+    padding-bottom: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #9dbedf;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
